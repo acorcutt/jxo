@@ -26,7 +26,7 @@ const obj = {
 const str = JXO.stringify(obj);
 
 const res = JXO.parse(str);
-t.deepEqual(obj, res);
+
 ```
 
 ## Examples
