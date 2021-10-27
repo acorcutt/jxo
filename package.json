@@ -1,6 +1,6 @@
 {
   "name": "jxo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Convert between Objects and JSON safe types.",
   "type": "module",
   "source": "src/index.js",
