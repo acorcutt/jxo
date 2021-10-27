@@ -1,10 +1,18 @@
 {
   "name": "jxo",
-  "version": "0.0.2",
-  "description": "Convert between Objects and JSON safe types.",
+  "version": "0.0.3",
+  "description": "Make almost any JavaScript Object JSON safe.",
+  "engines": {
+    "node": ">= 12",
+    "pnpm": ">= 3"
+  },
   "type": "module",
   "source": "src/index.js",
   "main": "dist/index.js",
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "test": "ava",
     "watch:test": "ava --watch",
@@ -15,8 +23,18 @@
     "JSON",
     "Object",
     "Types",
-    "Serialization"
+    "Serialization",
+    "JavaScript",
+    "ES"
   ],
+  "homepage": "https://github.com/acorcutt/jxo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acorcutt/jxo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/acorcutt/jxo/issues"
+  },
   "author": "Anthony Corcutt",
   "license": "MIT",
   "devDependencies": {
