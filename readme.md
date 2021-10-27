@@ -31,14 +31,15 @@ const res = JXO.parse(str);
 
 ## Examples
 
-See test.js for more examples.
+See [test.js](test.js) for more examples.
 
 ---
 
 ## TODO
 
-- More examples
-- Better fallback handing with customisation
-- Validate the custom types
-- Encoders for typed arrays
-- Buffers
+- [ ] Better instructions
+- [ ] More examples
+- [ ] Better fallback handing with customisation
+- [ ] Validate the custom types
+- [ ] Encoders for typed arrays
+- [ ] Buffers
