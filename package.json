@@ -1,0 +1,26 @@
+{
+  "name": "jxo",
+  "version": "0.0.1",
+  "description": "Convert between Objects and JSON safe types.",
+  "type": "module",
+  "source": "src/index.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "ava",
+    "watch:test": "ava --watch",
+    "watch:build": "parcel watch",
+    "build": "parcel build"
+  },
+  "keywords": [
+    "JSON",
+    "Object",
+    "Types",
+    "Serialization"
+  ],
+  "author": "Anthony Corcutt",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "parcel": "^2.0.0"
+  }
+}
