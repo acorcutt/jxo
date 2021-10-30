@@ -22,6 +22,7 @@ const JXO = new JxO();
 const obj = {
   supports: new Set([NaN, Infinity, undefined, new Date(), new Map([['and', 'more']])]),
 };
+obj.self = obj;
 
 const str = JXO.stringify(obj);
 
